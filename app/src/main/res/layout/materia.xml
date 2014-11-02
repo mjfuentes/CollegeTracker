@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Nombre Materia"
+        android:id="@+id/nombre"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Codigo Materia"
+        android:id="@+id/codigo"
+        android:layout_toEndOf="@+id/nombre"
+        android:layout_below="@+id/nombre"
+        android:layout_alignLeft="@+id/nombre"
+        android:layout_alignStart="@+id/nombre" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Nota: 10"
+        android:id="@+id/nota"
+        android:layout_below="@+id/codigo"
+        android:layout_alignLeft="@+id/codigo"
+        android:layout_alignStart="@+id/codigo" />
+</RelativeLayout>
